@@ -425,8 +425,8 @@
 
           <div class="subscription">
             <p class="footer-subscription-text">Підпишіться на розсилку</p>
-            <div class="footer-formfield">
-              <label class="footer-form">
+            <form class="footer-form">
+              <label>
                 <input type="email" class="footer-input" name="subscription-mail" placeholder="E-mail" required />
               </label>
               <button type="submit" class="subscription-btn btn">
@@ -435,7 +435,7 @@
                   <use href="./images/icons.svg#icon-subscription"></use>
                 </svg>
               </button>
-            </div>
+            </form>
           </div>
         </div>
       </div>
@@ -447,10 +447,10 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <h2 class="modal-title title">
+        <p class="modal-text">
           Залиште свої дані, ми вам передзвонимо
-        </h2>
-        <div class="modal-form">
+        </p>
+        <form class="modal-form">
           <label class="form-field">
             <input type="text" class="form-input" name="name" placeholder=" " />
             <span class="form-label">Ім'я</span>
@@ -482,19 +482,19 @@
           </label>
           <label class="form-agree">
             <input class="form-agree-checkbox" type="checkbox" name="agree" value="agree" />
-            <div class="form-custom-checkbox">
+            <span class="form-custom-checkbox">
               <svg class="form-agree-icon" width="16" height="15">
                 <use href="./images/icons.svg#icon-check"></use>
               </svg>
-            </div>
+            </span>
             <span class="form-agree-label">Погоджуюся з розсилкою та приймаю <a href="" class="form-agree-link" target="_blank" rel="noopener nofollow noreferrer">Умови договору</a></span>
           </label>
           <div class="modal-btn-wrapper">
             <button type="submit" class="modal-btn btn">
-              <span class="modal-btn-text">Відправити</span>
+              Відправити
             </button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
