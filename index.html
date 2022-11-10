@@ -425,7 +425,7 @@
 
           <div class="subscription">
             <p class="footer-subscription-text">Підпишіться на розсилку</p>
-            <form class="footer-form">
+            <form name="subscription" class="footer-form">
               <label>
                 <input type="email" class="footer-input" name="subscription-mail" placeholder="E-mail" required />
               </label>
@@ -447,10 +447,8 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="modal-text">
-          Залиште свої дані, ми вам передзвонимо
-        </p>
-        <form class="modal-form">
+        <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
+        <form name="modal" class="modal-form">
           <label class="form-field">
             <input type="text" class="form-input" name="name" placeholder=" " />
             <span class="form-label">Ім'я</span>
@@ -473,11 +471,7 @@
             </svg>
           </label>
           <label class="form-field">
-            <textarea
-              class="modal-comment"
-              name="comment"
-              placeholder="Введіть текст"
-            ></textarea>
+            <textarea class="modal-comment" name="comment" placeholder="Введіть текст"></textarea>
             <span class="form-label">Коментар</span>
           </label>
           <label class="form-agree">
@@ -487,12 +481,15 @@
                 <use href="./images/icons.svg#icon-check"></use>
               </svg>
             </span>
-            <span class="form-agree-label">Погоджуюся з розсилкою та приймаю <a href="" class="form-agree-link" target="_blank" rel="noopener nofollow noreferrer">Умови договору</a></span>
+            <span class="form-agree-label"
+              >Погоджуюся з розсилкою та приймаю
+              <a href="" class="form-agree-link" target="_blank" rel="noopener nofollow noreferrer"
+                >Умови договору</a
+              ></span
+            >
           </label>
           <div class="modal-btn-wrapper">
-            <button type="submit" class="modal-btn btn">
-              Відправити
-            </button>
+            <button type="submit" class="modal-btn btn">Відправити</button>
           </div>
         </form>
       </div>
